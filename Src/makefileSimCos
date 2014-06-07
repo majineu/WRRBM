@@ -1,0 +1,19 @@
+
+CC=g++
+#CFLAGS=-c -Wall -g -std=c++11	 
+CFLAGS=-c -Wall -O4 -std=c++11 
+LDFLAGS= -lpthread
+SOURCES=SimCos.cpp Config.cpp WRRBM.cpp Pool.cpp util.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+EXECUTABLE=SimCos
+
+all: $(SOURCES) $(EXECUTABLE)
+	
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
+
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
+
+clean:
+	rm *.o SimCos

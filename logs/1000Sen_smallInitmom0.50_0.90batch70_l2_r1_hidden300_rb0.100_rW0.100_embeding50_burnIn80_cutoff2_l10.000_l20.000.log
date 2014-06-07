@@ -1,0 +1,4 @@
+epoch 0   error 3.578e+04 hit 1.723e+04 dataSize 13325  wer 89.52% hitRate 43.11%  mins 0 and 20 sec
+epoch 1   error 3.556e+04 hit 1.713e+04 dataSize 13325  wer 88.95% hitRate 42.86%  mins 0 and 20 sec
+epoch 2   error 3.545e+04 hit 1.708e+04 dataSize 13325  wer 88.69% hitRate 42.72%  mins 0 and 20 sec
+epoch 3   error 3.537e+04 hit 1.698e+04 dataSize 13325  wer 88.48% hitRate 42.48%  mins 0 and 20 sec

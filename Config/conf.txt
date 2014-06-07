@@ -1,0 +1,33 @@
+::strCorpus						/home/sutd/Ji/Data/XinHuaLargeScale/verySmall.char.concate.txt				
+::strCorpus						/home/sutd/Ji/Data/XinHuaLargeScale/1_1000andTrain.txt				
+::strCorpus						/home/sutd/Ji/Data/XinHuaLargeScale/1_3000andTrain.txt				
+::strCorpus						/home/sutd/Ji/Data/XinHuaLargeScale/100sentence.txt				
+::strCorpus						/home/sutd/Ji/Data/XinHuaLargeScale/1000sentence.txt				
+::strCorpus						/home/sutd/Ji/Data/XinHuaLargeScale/1sample.txt				
+::strCorpus						/home/sutd/Ji/Data/XinHuaLargeScale/10sentence.txt				
+strCorpus							/home/sutd/Ji/Data/smallEngData/1000.lower
+
+fInitMom						0.5
+fFinalMom						0.9
+nBatchSize					20
+fPretrainRate				0.1
+fBiasRate						0.1
+nEpoch							200
+
+
+:: the epoch from which verbose is turned on
+nRBMVEpoch					1000
+nTrainVEpoch				1000				
+
+
+nBurnIn							80
+nCutoff							2
+nEmbeddingSize			50
+fL1									0
+fL2									0
+nHidden							300
+nLeft								2
+nRight							1
+nThreads						2	
+nFreq								30
+prefix							1000Sen_smallInit

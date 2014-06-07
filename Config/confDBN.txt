@@ -1,0 +1,17 @@
+strCorpus								/home/sutd/Ji/Data/WebTreebank/train_dev/1_40.lower
+
+fInitMom						0.5
+fFinalMom						0.9
+::									batch size must be in k
+nBatchSize					2000
+nEpoch							20
+bDBNBySample				true	
+
+prefix							/home/sutd/Ji/tagger/CombinedTagger/wrrbmEn/1_40_l2r2h300b80c6_e53
+fPretrainRate				0.1
+
+HiddenSize          250  150
+strTempDir					tempData/
+strTempDataPrefix		test
+strDBNSubName				test
+

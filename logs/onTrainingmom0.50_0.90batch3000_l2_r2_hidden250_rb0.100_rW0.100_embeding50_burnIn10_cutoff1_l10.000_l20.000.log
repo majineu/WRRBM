@@ -1,0 +1,3 @@
+epoch 0   error 5.294e+05 hit 6.154e+04 dataSize 437609  wer 30.24% hitRate 3.52%  mins 7 and 47 sec
+epoch 1   error 5.399e+05 hit 5.933e+04 dataSize 437609  wer 30.85% hitRate 3.39%  mins 7 and 42 sec
+epoch 2   error 5.490e+05 hit 5.802e+04 dataSize 437609  wer 31.36% hitRate 3.31%  mins 7 and 42 sec

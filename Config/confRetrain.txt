@@ -1,0 +1,22 @@
+strCorpus						/home/sutd/Ji/tagger/xinhua/train.sen	
+strOldCorpus				/home/sutd/Ji/Data/XinHuaLargeScale/1_50.cat.dig	
+strRBMPath					./models/1_50mom0.50_0.90batch8000_l2_r2_hidden250_rb0.100_rW0.100_embeding50_burnIn100_cutoff15_l10.000_l20.000_epoch68
+
+fInitMom						0.5
+fFinalMom						0.9
+nBatchSize					3000
+fPretrainRate				0.1
+fBiasRate						0.1
+nEpoch							200
+
+
+:: the epoch from which verbose is turned on
+nRBMVEpoch					1000
+nTrainVEpoch				1000				
+
+nCutoff							1
+fL1									0
+fL2									0
+nThreads						4	
+nFreq								3
+prefix							onTraining		
